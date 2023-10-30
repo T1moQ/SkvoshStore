@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-width: 1200px;
+  height: 100%;
+  background-color: #5A5560;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.App {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 900px;
+  background-color: #9D8D8F;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+  padding-bottom: 20px;
+}
+
+.header {
+  background-color: #FAED26;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header_nav {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headre_form {
+  position: relative;
+}
+
+.header_input {
+  font-size: 20px;
+  border-radius: 7px;
+  border: none;
+}
+
+.autocomplete {
+  list-style: none;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: #000;
+  z-index: 111;
+  overflow: auto;
+  max-height: 240px;
+  height: auto;
+  border-radius: 7px;
+}
+
+.autocomplete_item {
+  padding: 10px;
+}
+
+.autocomplete_item:hover {
+  cursor: pointer;
+  background: rgb(195, 195, 195);
+  transition: cubic-bezier(1, 0, 0, 1) .3s all;
+}
+
+.footer {
+  background-color: #46344E;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  padding: 20px 0 20px 0;
+}
+
+.card_item {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card_item:hover {
+  /* box-shadow: 10px 5px 5px #000; */
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.7);
+}
+
+.card_link {
+  text-decoration: none;
+}
+
+.image_box {
+  height: 200px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.select_box {
+  text-align: start;
+  border: none;
+}
