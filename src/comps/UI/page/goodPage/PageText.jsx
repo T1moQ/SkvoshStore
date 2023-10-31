@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import DB from '../../../../DB/DB'
-import cl from '../goodPage/GoodPageMain.module.css'
+import cl from './GoodPageMain.module.css'
 
 const PageText = () => {
 
