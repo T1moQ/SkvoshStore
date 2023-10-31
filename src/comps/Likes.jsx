@@ -1,5 +1,5 @@
 import { useState } from "react"
-import cl from './Likes.module.css'
+import cl from '../comps/Likes.module.css'
 
 const Likes = () => {
 
