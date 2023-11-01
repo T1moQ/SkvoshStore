@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import DB from "../DB/DB"
 
 const Header = (props) => {
@@ -21,7 +22,9 @@ const Header = (props) => {
    return (
       <header className='header'>
          <nav className='header_nav'>
-            <h1 className='title-header'>Skvosh Boardshop</h1>
+            <Link to={'/'} className="title_link">
+               <h1 className='title-header'>Skvosh Boardshop</h1>
+            </Link>
             <form className='headre_form'>
                <input
                   value={value}

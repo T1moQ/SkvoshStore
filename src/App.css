@@ -45,6 +45,11 @@ body,
   align-items: center;
 }
 
+.title_link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .headre_form {
   position: relative;
 }
