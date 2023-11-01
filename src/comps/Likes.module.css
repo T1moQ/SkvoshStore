@@ -1,0 +1,22 @@
+.likes_box {
+   margin-top: 15px;
+   font-size: 10px;
+   text-align: center;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   display: flex;
+   column-gap: 3px;
+   align-items: baseline;
+}
+
+span {
+   font-weight: 700;
+}
+
+.button {
+   font-size: 10px;
+   cursor: pointer;
+   background-color: #FAED26;
+   border-radius: 2px;
+   padding: 5px;
+   border: none;
+}
