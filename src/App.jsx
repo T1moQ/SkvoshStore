@@ -6,7 +6,7 @@ import GoodPage from './comps/UI/page/goodPage/GoodPage'
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+      <BrowserRouter basename='/SkvoshStore'>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/:slug' element={<GoodPage />} />
