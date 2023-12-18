@@ -1,8 +1,14 @@
-# React + Vite
+## Welcome to the repository of Skvosh Boardshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project of the website for a small online boradshop. Created to test key features of React JS.
 
-Currently, two official plugins are available:
+### *Key technologies*
+* **React JS**
+* **React Router**
+* **CSS Modules**
+* **Third party libraries (NanoID)**
+* **Vite**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#
+
+### [Demo](t1moq.github.io/SkvoshStore/)
